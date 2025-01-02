@@ -391,22 +391,22 @@ html {
   padding: 1rem 2rem 1rem 2rem;
   color: #354463;
 }
-.EventandNewsSection {
+.main-page6-EventandNewsSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #344464;
 }
-.slogan3 {
+.main-page6-slogan3 {
   text-align: center;
   color: white;
   font-family: "flood-std", Arial, Helvetica, sans-serif;
   font-size: xx-large;
   padding: 1rem 1rem;
 }
-.eventSection,
-.newsSection {
+.main-page6-eventSection,
+.main-page6-newsSection {
   display: flex;
   flex-direction: column;
   align-self: center;
@@ -418,15 +418,15 @@ html {
   position: relative;
   margin-bottom: 5%;
 }
-.eventContext,
-.newsContext {
+.main-page6-eventContext,
+.main-page6-newsContext {
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
 }
-.eventHead,
-.newsHead {
+.main-page6-eventHead,
+.main-page6-newsHead {
   background-color: white;
   color: #344464;
   font-size: medium;
@@ -437,24 +437,24 @@ html {
   top: -4%;
   align-self: center;
 }
-.eventsubheading1,
-.newssubheading1 {
+.main-page6-eventsubheading1,
+.main-page6-newssubheading1 {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: larger;
   text-align: center;
   align-self: center;
 }
-.eventtext,
-.newstext {
+.main-page6-eventtext,
+.main-page6-newstext {
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: small;
   font-weight: 300;
   text-align: center;
 }
-.eventButton,
-.newsButton {
+.main-page6-eventButton,
+.main-page6-newsButton {
   color: #344464;
   text-decoration: none;
   background-color: #c1f7d5;
@@ -467,8 +467,8 @@ html {
   align-self: center;
 }
 
-.eventTreeImg,
-.newsMeetingImg {
+.main-page6-eventTreeImg,
+.main-page6-newsMeetingImg {
   width: 80%;
   align-self: center;
 }
@@ -766,7 +766,7 @@ html {
     margin-left: 2%;
     margin-top: 1rem;
   }
-  .slogan3 {
+  .main-page6-slogan3 {
     align-self: start;
     text-align: start;
     font-size: 2.5rem;
@@ -774,46 +774,46 @@ html {
     margin-right: 15%;
     padding: 1rem 0rem;
   }
-  .eventTreeImg,
-  .newsMeetingImg {
+  .main-page6-eventTreeImg,
+  .main-page6-newsMeetingImg {
     display: block;
     width: 50%;
   }
-  .eventSection {
+  .main-page6-eventSection {
     flex-direction: row;
     align-items: start;
     gap: 10%;
     margin: 0 10%;
   }
-  .newsSection {
+  .main-page6-newsSection {
     flex-direction: row-reverse;
     align-items: start;
     gap: 10%;
     margin: 5% 10%;
   }
-  .eventHead,
-  .newsHead {
+  .main-page6-eventHead,
+  .main-page6-newsHead {
     position: relative;
     align-self: start;
     padding: 0.5rem 1.5rem;
   }
-  .eventContext,
-  .newsContext {
+  .main-page6-eventContext,
+  .main-page6-newsContext {
     align-items: start;
     height: 100%;
   }
-  .eventsubheading1,
-  .newssubheading1 {
+  .main-page6-eventsubheading1,
+  .main-page6-newssubheading1 {
     text-align: start;
     font-size: x-large;
     align-self: start;
   }
-  .eventtext,
-  .newstext {
+  .main-page6-eventtext,
+  .main-page6-newstext {
     text-align: start;
   }
-  .eventButton,
-  .newsButton {
+  .main-page6-eventButton,
+  .main-page6-newsButton {
     align-self: start;
   }
   .main-page7-subscribe {
@@ -1046,34 +1046,34 @@ html {
     margin-right: 60%;
     margin-left: 2%;
   }
-  .slogan3 {
+  .main-page6-slogan3 {
     font-size: 3.5rem;
     margin-right: 50%;
   }
-  .eventTreeImg {
+  .main-page6-eventTreeImg {
     display: block;
     width: 250%;
   }
-  .newsMeetingImg {
+  .main-page6-newsMeetingImg {
     display: block;
     width: 38%;
   }
-  .eventsubheading1,
-  .newssubheading1 {
+  .main-page6-eventsubheading1,
+  .main-page6-newssubheading1 {
     font-size: xx-large;
     margin-right: 35%;
   }
-  .eventContext,
-  .newsContext {
+  .main-page6-eventContext,
+  .main-page6-newsContext {
     gap: 3rem;
   }
-  .eventtext,
-  .newstext {
+  .main-page6-eventtext,
+  .main-page6-newstext {
     margin-right: 20%;
     font-size: large;
   }
-  .eventHead,
-  .newsHead {
+  .main-page6-eventHead,
+  .main-page6-newsHead {
     padding: 0.5rem 3rem;
   }
   .main-page7-subscribe {
