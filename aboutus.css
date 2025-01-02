@@ -71,7 +71,7 @@ html {
 }
 
 .main-page1-the-issue {
-  background: url("./allimages/annie-spratt-427339-unsplash@2x.png");
+  background: url("./allimages/annie-spratt-135307-unsplash.png");
   padding: 2rem 1rem;
   background-color: #354463;
   width: 100%;
@@ -469,6 +469,10 @@ html {
 .footer-decoration ul:first-child {
   text-decoration: none;
 }
+.footer-follow {
+  margin-left: -25%;
+  /* padding: 1rem; */
+}
 
 .footer-main h1 {
   font-family: flood-std;
@@ -661,6 +665,9 @@ html {
 
   .footer-learn-footer {
     grid-column: 2/3;
+  }
+  .footer-follow {
+    margin-left: -20%;
   }
 
   .footer-main h1 {
