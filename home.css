@@ -80,7 +80,7 @@ html {
   padding: 2rem 1rem;
   width: 100%;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   display: flex;
   flex-direction: column;
 }
@@ -150,6 +150,7 @@ html {
 }
 .main-page2-data h3 {
   margin-bottom: 0.3rem;
+  font-size: 1.5rem;
 }
 
 .main-page3 {
@@ -176,7 +177,7 @@ html {
 }
 
 .main-page3-para {
-  text-align: center;
+  text-align: start;
   font-size: 1.5rem;
   margin-bottom: 5rem;
 }
@@ -390,203 +391,86 @@ html {
   padding: 1rem 2rem 1rem 2rem;
   color: #354463;
 }
-.main-page6-action {
-  display: grid;
-  grid-template-columns: 2.5rem 1fr 2.5rem;
-  grid-template-rows: 18rem 20rem 20rem 20rem 20rem;
-  background-color: #283652;
-  color: white;
-}
-
-.main-page6-action-heading {
-  grid-column: 2/3;
-  font-family: flood-std;
-  grid-row: 1/2;
-  align-self: center;
-  font-size: 2.5rem;
-  padding-right: 25%;
-  line-height: 104%;
-  text-transform: uppercase;
-  padding-bottom: 50px;
-  text-align: center;
-  font-family: "flood-std";
-  margin-left: 5%;
-  margin-right: -16%;
-  margin-top: 15%;
-}
-
-.main-page6-plant-and-event-button {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  background-image: url("./allimages/tree-planting.png");
-  width: 100%;
-  max-width: 338px;
-  margin-bottom: 0rem;
-  margin-left: 0%;
-  background-size: 119%;
-  margin-right: 0%;
-  background-repeat: no-repeat;
-  margin-top: 10%;
-}
-
-.main-page6-event {
-  background: white;
-  opacity: 1;
-  text-align: center;
-  font: normal normal normal 14px/17px Helvetica;
-  letter-spacing: 0.56px;
-  color: #354463;
-  opacity: 1;
-  z-index: 1;
-  grid-column: 2/3;
-  grid-row: 2/3;
-
-  margin-bottom: 92%;
-  margin-left: 31%;
-  margin-right: 28%;
-  padding: 3%;
-  padding-right: 3%;
-  padding-left: 3%;
-  margin-top: -5%;
-  padding-right: 10%;
-  padding-left: 10%;
-}
-
-.main-page6-earth-1 {
-  grid-column: 2/3;
-  grid-row: 3/4;
-  text-align: center;
-  font: normal normal 300 14px/20px Helvetica;
-  color: white;
-  opacity: 1;
-  align-self: center;
-  padding: 0%;
-  position: relative;
-  margin: 5%;
-  margin-left: 0%;
-  margin-right: 0%;
-}
-
-.main-page6-earth-1 h3 {
-  text-align: center;
-  font: normal normal bold 22px/28px Helvetica;
-  letter-spacing: 0px;
-  color: #ffffff;
-  opacity: 1;
-  margin-left: 10%;
-  margin-left: 1%;
-  margin-top: 0%;
-  margin-bottom: 9%;
-  margin-right: 0%;
-}
-
-.main-page6-earth-1 p {
-  margin-left: 10%;
-  margin-left: 1%;
-  margin-top: 0%;
-  margin-bottom: 9%;
-  margin-right: 0%;
-}
-
-.main-page6-read-more-earth,
-.main-page6-read-more-earth1 {
-  grid-column: 2 / 3;
-  grid-row: 3 / 4;
-  padding: 2%;
-  padding-right: 0%;
-  padding-left: 0%;
+.EventandNewsSection {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  text-decoration: none;
-  color: #354463;
-  background-color: #c1f7d5;
-  border: 0.2rem solid #c1f7d5;
-  border-radius: 1rem;
-  text-align: center;
-  font-weight: bolder;
-  font: normal normal bold 1rem / 1.2rem Helvetica;
-  font-family: Helvetica;
-  font-family: Helvetica;
-  font-family: Arial, Helvetica, sans-serif;
-  bottom: -30%;
-  left: 38%;
-  transform: translateX(-17%);
-  margin-left: 34%;
+  align-items: center;
+  background-color: #344464;
 }
-
-.main-page6-plant-and-latest-news-button {
-  grid-column: 2/3;
-  grid-row: 4/5;
-  background-image: url("./allimages/meeting.png");
-  width: 100%;
-  max-width: 338px;
-  margin-bottom: 0rem;
-  margin-left: 0%;
-  background-size: 119%;
-  margin-right: 0%;
-  background-repeat: no-repeat;
-  margin-top: 10%;
-}
-
-.main-page6-news-event {
-  background: white;
-  opacity: 1;
+.slogan3 {
   text-align: center;
-  font: normal normal normal 15px/17px Helvetica;
-  letter-spacing: -0.44px;
-  color: #354463;
-  opacity: 1;
-  z-index: 1;
-  grid-column: 2/3;
-  grid-row: 4/5;
-  margin-bottom: 92%;
-  margin-left: 25%;
-  margin-right: 23%;
-  padding: 3%;
-  padding-right: 3%;
-  padding-left: 3%;
-  padding-right: 3%;
-  padding-left: 3%;
-  margin-top: -5%;
-  padding-right: 10%;
-  padding-left: 10%;
-  text-align: center;
-}
-
-.main-page6-earth-2 {
-  grid-column: 2/3;
-  text-align: center;
-  font: normal normal 300 14px/20px Helvetica;
   color: white;
-  opacity: 1;
+  font-family: "flood-std", Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+  padding: 1rem 1rem;
+}
+.eventSection,
+.newsSection {
+  display: flex;
+  flex-direction: column;
   align-self: center;
-  padding: 0%;
-  position: relative;
-  margin: 5%;
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-left: 0%;
-  margin-right: 0%;
-}
-
-.main-page6-earth-2 h3 {
   text-align: center;
-  font: normal normal bold 22px/28px Helvetica;
-  letter-spacing: 0px;
-  color: #ffffff;
-  opacity: 1;
-  margin-left: 10%;
-  margin-left: 1%;
-  margin-top: 0%;
-  margin-bottom: 9%;
-  margin-right: 0%;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem;
+  gap: 1rem;
+  position: relative;
+  margin-bottom: 5%;
+}
+.eventContext,
+.newsContext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+.eventHead,
+.newsHead {
+  background-color: white;
+  color: #344464;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.5rem 0.7rem;
+  z-index: 1;
+  position: absolute;
+  top: -4%;
+  align-self: center;
+}
+.eventsubheading1,
+.newssubheading1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  text-align: center;
+  align-self: center;
+}
+.eventtext,
+.newstext {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  font-weight: 300;
+  text-align: center;
+}
+.eventButton,
+.newsButton {
+  color: #344464;
+  text-decoration: none;
+  background-color: #c1f7d5;
+  padding: 0.5rem 1rem;
+  border: 0.2rem solid #c1f7d5;
+  border-radius: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: large;
+  align-self: center;
 }
 
-.main-page6-earth-2 p {
-  margin-left: 10%;
-  margin-left: 1%;
-  margin-top: 0%;
-  margin-bottom: 9%;
-  margin-right: 0%;
+.eventTreeImg,
+.newsMeetingImg {
+  width: 80%;
+  align-self: center;
 }
 
 .main-page7-subscribe {
@@ -732,6 +616,7 @@ html {
   .main-page1-data > h1 {
     text-align: start;
     padding-left: 1rem;
+    font-size: 2rem;
   }
 
   .main-page1-data > p {
@@ -766,15 +651,18 @@ html {
   .main-page3-data-id1 img {
     grid-column: 1/2;
     align-self: center;
+    margin-top: -7rem;
   }
   .main-page3-data-id2 img {
     grid-column: 1/2;
     align-self: center;
+    margin-top: -7rem;
   }
 
   .main-page3-data-id3 img {
     grid-column: 1/2;
     align-self: center;
+    margin-top: -7rem;
   }
 
   .main-page3-data-id1-data,
@@ -783,14 +671,22 @@ html {
     grid-column: 2/4;
     grid-row: 1/3;
   }
+  .main-page3-data-id1-data p,
+  .main-page3-data-id2-data p,
+  .main-page3-data-id3-data p {
+    text-align: start;
+    font-size: 1.5rem;
+    padding: 0 0rem 0 0rem;
+    margin-top: 1rem;
+  }
 
   .main-page3-data-id1-button,
   .main-page3-data-id2-button,
-  .main-page3-data-id3-button,
-  .main-page3-data-id3-data-button {
+  .main-page3-data-id3-button {
     grid-column: 1/2;
-    justify-self: end;
-    margin: 0;
+    justify-self: center;
+    margin-left: 3rem;
+    padding-bottom: 2rem;
     font-weight: bold;
     border-radius: 1.5rem;
     background-color: #c1f7d5;
@@ -866,82 +762,60 @@ html {
   }
 
   .main-page5-box2-button {
-    margin-right: 60%;
+    margin-right: 67%;
     margin-left: 2%;
     margin-top: 1rem;
   }
-  .main-page6-action {
-    grid-template-columns: 2.5rem 1fr 1fr 2.5rem;
-    grid-template-rows: 18rem 30rem 30rem;
-  }
-
-  .main-page6-action-heading {
-    grid-column: 2/4;
-    grid-row: 1/2;
-    align-self: left;
-    text-align: left;
-  }
-
-  .main-page6-plant-and-event-button {
-    background-repeat: no-repeat;
-    max-width: 293px;
-  }
-
-  .main-page6-event {
-    grid-column: 3/4;
-    margin-left: 124%;
-    margin-right: -61%;
-    margin-top: 0%;
-  }
-
-  .main-page6-earth-1 {
-    grid-column: 3/4;
-    grid-row: 2/3;
-    text-align: left;
-  }
-  .main-page6-earth-1 p {
-    line-height: 157%;
-    text-align: left;
-  }
-  .main-page6-earth-1 h3 {
-    text-align: left;
-    line-height: 150%;
+  .slogan3 {
+    align-self: start;
+    text-align: start;
+    font-size: 2.5rem;
     margin-left: 10%;
+    margin-right: 15%;
+    padding: 1rem 0rem;
   }
-
-  .main-page6-plant-and-latest-news-button {
-    grid-column: 3/4;
-    grid-row: 3/4;
-    background-repeat: no-repeat;
-    max-width: 293px;
+  .eventTreeImg,
+  .newsMeetingImg {
+    display: block;
+    width: 50%;
   }
-
-  .main-page6-news-event {
-    margin-right: 50rem;
-    margin-left: -5rem;
-    margin-top: 0%;
+  .eventSection {
+    flex-direction: row;
+    align-items: start;
+    gap: 10%;
+    margin: 0 10%;
   }
-
-  .main-page6-earth-2 {
-    grid-column: 2/3;
-    grid-row: 3/4;
+  .newsSection {
+    flex-direction: row-reverse;
+    align-items: start;
+    gap: 10%;
+    margin: 5% 10%;
   }
-
-  .mian-page6-earth-2 p {
-    line-height: 157%;
-    text-align: left;
-    margin-left: -5%;
-    margin-top: 0%;
-    margin-bottom: 9%;
-    margin-right: 0%;
+  .eventHead,
+  .newsHead {
+    position: relative;
+    align-self: start;
+    padding: 0.5rem 1.5rem;
   }
-  .main-page6-earth-2 h3 {
-    text-align: left;
-    line-height: 150%;
-    margin-left: -3%;
-    margin-right: 10%;
+  .eventContext,
+  .newsContext {
+    align-items: start;
+    height: 100%;
   }
-
+  .eventsubheading1,
+  .newssubheading1 {
+    text-align: start;
+    font-size: x-large;
+    align-self: start;
+  }
+  .eventtext,
+  .newstext {
+    text-align: start;
+  }
+  .eventButton,
+  .newsButton {
+    align-self: start;
+  }
   .main-page7-subscribe {
     padding: 3.5rem;
   }
@@ -1007,7 +881,7 @@ html {
 
   .main-page1-title {
     font-size: 1.3rem;
-    padding-top: 2.5rem;
+    padding-top: 0.5rem;
   }
 
   .main-page1-title h1 {
@@ -1043,6 +917,9 @@ html {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 3rem;
+  }
+  .main-page3-para {
+    margin-bottom: 8rem;
   }
 
   .main-page3-data-id1,
@@ -1085,15 +962,17 @@ html {
 
   .main-page3-data-id1-button,
   .main-page3-data-id2-button,
-  .main-page3-data-id3-data-button {
+  .main-page3-data-id3-button {
     grid-column: 1/2;
     justify-self: center;
     margin: 0;
     font-weight: bold;
+    height: 30%;
+    /* w */
     border-radius: 1.5rem;
     background-color: #c1f7d5;
     border: none;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     color: #354463;
   }
 
@@ -1167,121 +1046,36 @@ html {
     margin-right: 60%;
     margin-left: 2%;
   }
-
-  .main-page6-action {
-    grid-template-columns: 2.5rem 1fr 1fr 2.5rem;
-    grid-template-rows: 18rem 45rem 45rem;
+  .slogan3 {
+    font-size: 3.5rem;
+    margin-right: 50%;
   }
-  .main-page6-action-heading {
-    font-size: 5rem;
-    margin-bottom: 5rem;
+  .eventTreeImg {
+    display: block;
+    width: 250%;
   }
-
-  .main-page6-plant-and-event-button {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    /* background-image: url("./allimages/tree-planting.png"); */
-    background-repeat: no-repeat;
-    max-width: 555px;
-    width: 129%;
-    margin-bottom: 0rem;
-    margin-left: 0%;
-    background-size: 112%;
-    margin-right: 10%;
-    background-repeat: no-repeat;
-    margin-top: 0%;
+  .newsMeetingImg {
+    display: block;
+    width: 38%;
   }
-  .main-page6-event {
-    display: flex;
-    justify-content: center;
-    margin-left: 49rem;
-    margin-right: -37%;
+  .eventsubheading1,
+  .newssubheading1 {
+    font-size: xx-large;
+    margin-right: 35%;
   }
-
-  .main-page6-earth-1 p {
-    margin-left: 10%;
+  .eventContext,
+  .newsContext {
+    gap: 3rem;
   }
-  .main-page6-earth-1 {
-    align-self: left;
-    font: normal normal 300 20px/32px Helvetica;
+  .eventtext,
+  .newstext {
+    margin-right: 20%;
+    font-size: large;
   }
-
-  .main-page6-earth-1 h3 {
-    font: normal normal bold 44px/56px Helvetica;
-    line-height: 56px;
-    letter-spacing: 0px;
-    color: #ffffff;
-    opacity: 1;
-    margin-left: 10%;
-    margin-left: 1%;
-    margin-top: -14%;
-    margin-bottom: 9%;
-    margin-right: 0%;
-    text-align: center;
-    line-height: 100%;
-    margin-left: 10%;
+  .eventHead,
+  .newsHead {
+    padding: 0.5rem 3rem;
   }
-  .main-page6-read-more-earth {
-    margin-left: 10rem;
-    margin-right: 12rem;
-    border-radius: 3rem;
-  }
-  .main-page6-read-more-earth1 {
-    margin-left: 5rem;
-    margin-right: 8rem;
-  }
-
-  .main-page6-plant-and-latest-news-button {
-    background-repeat: no-repeat;
-    max-width: 555px;
-    width: 129%;
-    margin-bottom: 0rem;
-    margin-left: 0%;
-    background-size: 112%;
-    margin-right: 10%;
-    background-repeat: no-repeat;
-    margin-top: 0%;
-  }
-
-  .main-page6-news-event {
-    margin-left: 110%;
-    margin-right: -37%;
-  }
-
-  .main-page6-plant-and-latest-news-button {
-    margin-left: 10%;
-  }
-
-  .main-page6-earth-2 p {
-    margin-left: 10%;
-  }
-  .main-page6-earth-2 {
-    align-self: left;
-    font: normal normal 300 20px/32px Helvetica;
-  }
-
-  .main-page6-earth-2 h3 {
-    font: normal normal bold 44px/56px Helvetica;
-    line-height: 56px;
-    letter-spacing: 0px;
-    color: #ffffff;
-    opacity: 1;
-    margin-left: 10%;
-    margin-left: 1%;
-    margin-top: -14%;
-    margin-bottom: 9%;
-    margin-right: 0%;
-    text-align: left;
-    line-height: 100%;
-    margin-left: 10%;
-  }
-
-  .main-page6-news-event {
-    margin-left: -38rem;
-    margin-right: 59rem;
-    padding-right: 8rem;
-  }
-
   .main-page7-subscribe {
     flex-direction: row;
     justify-content: center;
