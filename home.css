@@ -3,142 +3,210 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
-
 body,
 html {
   width: 100%;
+
   overflow-x: hidden;
+}
+nav {
+  background-color: #fff;
+}
+
+.container {
+  width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navbar {
   display: flex;
-  font-family: sans-serif;
+
   width: 100%;
+
   justify-content: center;
+
   flex-direction: column;
+
   padding: 1rem;
+
   color: #354463;
-}
-.navbar-1 {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-.nav-title {
-  padding: 1.2rem 0.7rem;
-  width: 55%;
-  font-size: 0.2rem;
-  font-family: sans-serif;
 }
 
-.navbar-title-anchor {
-  color: #354463;
-  text-decoration: none;
-}
-.navbar-sidebar {
+.heading-menu {
+  width: 100%;
+
   display: flex;
-  width: 40%;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  font-size: 1.7rem;
-  cursor: pointer;
+
+  flex-direction: row;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.heading {
   font-size: 1rem;
 }
 
-.navbar-sidebar a {
-  text-decoration: none;
+.nav-heading {
+  padding: 1.2rem 0.7rem;
+
+  width: 55%;
+
+  font-size: 0.7rem;
+
+  font-family: sans-serif;
+}
+
+.nav-heading a {
   color: #354463;
 }
-.navbar-sidebar p {
+
+.menu-options {
+  display: flex;
+
+  width: 40%;
+
+  flex-direction: column;
+
+  align-items: start;
+
+  justify-content: center;
+
+  cursor: pointer;
+
+  font-size: 1rem;
+}
+
+.menu-options a {
+  text-decoration: none;
+
+  color: #354463;
+}
+
+.menu-options p {
+  font-size: 0.8rem;
+
   margin-bottom: 0.5rem;
 }
 
-.navbar-sidebar-id1 {
-  color: #354463;
+.donate-button-container {
+  width: 100%;
+
+  margin: 1rem 10% 5% 10%;
 }
 
-.navbar-button {
-  width: 100%;
-  margin: 0 10% 5% 10%;
+.donate-button {
   cursor: pointer;
+
   padding: 0.6rem;
+
   width: 80%;
+
   border-radius: 1.5rem;
+
   border: none;
+
   background: #c1f7d5;
+
   font-weight: bold;
+
   font-size: 1rem;
+
   color: #354463;
 }
 
-.main-page1 {
-  background: url("./allimages/annie-spratt-135307-unsplash.png");
+.main-page1-the-issue {
+  background: url("./allimages/poverty.png");
+
   padding: 2rem 1rem;
+
   width: 100%;
+
   background-repeat: no-repeat;
+
   background-size: cover;
-  display: flex;
-  flex-direction: column;
 }
 
-.main-page1-title {
-  font-size: 1rem;
-  font-family: flood-std;
-  color: white;
-}
-
-.main-page1-title h1 {
-  font-size: 3rem;
-}
-.main-page1-issue {
-  top: 4rem;
-  margin: 0 30%;
-  position: relative;
+.bold-heading {
   background-color: #354463;
-  padding: 0.5rem;
-  display: flex;
-  justify-content: center;
+
+  padding: 0.5rem 1.5rem;
+
   color: white;
-}
 
-.main-page1-data {
-  margin-top: 3rem;
+  text-align: center;
+}
+.container1 {
   display: flex;
+
   flex-direction: column;
+
+  width: 100%;
+}
+
+/* .main-page1-issue-heading {
+} */
+.main-page1-issue-heading {
+  color: white;
+
+  font-size: 2.5rem;
+
+  font-family: flood-std;
+
+  margin-bottom: 2rem;
+}
+
+.main-page1-issue-content {
+  display: flex;
+
+  margin-top: 1.5rem;
+
+  flex-direction: column;
+
   align-items: center;
+
   background-color: white;
+
   color: #354463;
-  padding: 2.3rem 2rem;
-}
-.main-page1-data h1 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  text-align: center;
-}
-.main-page1-data p {
-  font-size: 0.8rem;
-  text-decoration: underline;
+
+  padding: 0rem 2.5rem 1rem 2.5rem;
+
   text-align: center;
 }
 
-.main-page2 {
-  padding: 2rem 2rem;
+.main-page1-issue-content h1 {
+  font-size: 1.3rem;
+}
+
+.main-page1-issue-box {
+  margin-top: -1rem;
+
+  margin-bottom: 1rem;
+
+  font-size: 1.1rem;
+}
+
+.main-page2-container {
+  padding-top: 4.68rem;
+  padding-bottom: 4.68rem;
   background-color: #c1f7d5;
+  position: relative;
 }
 
 .main-page2-takeaction {
-  top: -3rem;
-  margin: 0 15%;
-  position: relative;
+  top: -1rem;
+  position: absolute;
   background-color: #354463;
-  padding: 0.5rem;
+  padding: 0.5rem 2.5rem;
   display: flex;
   justify-content: center;
   color: white;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .main-page2-data {
@@ -153,13 +221,16 @@ html {
   font-size: 1.5rem;
 }
 
+.main-page3-container {
+  padding: 2rem 0rem;
+  background-color: #354463;
+  color: white;
+}
+
 .main-page3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 1rem;
-  background-color: #354463;
-  color: white;
 }
 
 .main-page3-what-to-do {
@@ -169,17 +240,19 @@ html {
 .main-page3-what-to-do-button {
   padding: 1rem 2rem;
   font-size: 1rem;
-  background-color: #c1f7d5;
   border: none;
-  color: #354463;
   font-weight: bold;
-  border-radius: 1.5rem;
+  margin-left: 0px;
+  background-color: #fff;
+  color: #354463;
 }
 
 .main-page3-para {
   text-align: start;
-  font-size: 1.5rem;
-  margin-bottom: 5rem;
+  color: #fff;
+  font-size: 44px;
+  line-height: 56px;
+  margin-bottom: 7rem;
 }
 
 .main-page3-data {
@@ -240,14 +313,19 @@ html {
   /* color:#354463 */
 }
 
-.main-page4 {
+.main-page4-container {
   background: url("./allimages/Did\ you\ know\ background.png");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main-page4 {
   display: flex;
   flex-direction: column;
   align-items: start;
   width: 100%;
-  padding: 2rem;
+  padding: 2rem 0rem;
   margin-top: -3rem;
   margin-bottom: 2rem;
 }
@@ -330,6 +408,8 @@ html {
   align-self: start;
 }
 
+.main-page5-container {
+}
 .main-page5 {
   display: flex;
   flex-direction: column;
@@ -356,7 +436,7 @@ html {
   color: white;
   background-color: #354463;
   padding: 1rem 2rem;
-  margin: 0rem 1rem;
+  /* margin-right: -1rem; */
 }
 
 .main-page5-box1-story {
@@ -391,19 +471,21 @@ html {
   padding: 1rem 2rem 1rem 2rem;
   color: #354463;
 }
+.main-page6-container {
+  background-color: #344464;
+}
 .main-page6-EventandNewsSection {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #344464;
 }
 .main-page6-slogan3 {
   text-align: center;
   color: white;
   font-family: "flood-std", Arial, Helvetica, sans-serif;
   font-size: xx-large;
-  padding: 1rem 1rem;
+  padding: 1rem 0rem;
 }
 .main-page6-eventSection,
 .main-page6-newsSection {
@@ -413,7 +495,7 @@ html {
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin: 1.5rem;
+  margin: 1.5rem 0rem;
   gap: 1rem;
   position: relative;
   margin-bottom: 5%;
@@ -473,13 +555,16 @@ html {
   align-self: center;
 }
 
+.main-page7-container {
+  color: #354463;
+  background-color: #c1f7d5;
+}
+
 .main-page7-subscribe {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem 0.6rem;
-  color: #354463;
-  background-color: #c1f7d5;
+  padding: 1rem 0rem;
 }
 
 .main-page7-subscribe h1 {
@@ -514,12 +599,16 @@ html {
   white-space: nowrap;
 }
 
+.footer-container {
+  background-color: #fff;
+}
+
 .footer-main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 1rem;
   row-gap: 4em;
-  padding: 1rem;
+  padding: 1rem 0rem;
   color: #354463;
   margin-top: 2rem;
 }
@@ -568,70 +657,82 @@ html {
 @media screen and (min-width: 30rem) {
   .navbar {
     flex-direction: row;
+
     align-items: center;
+
     width: 100%;
-    padding: 1rem;
+
+    padding: 1rem 1rem;
   }
-  .navbar-1 {
+
+  .heading-menu {
     flex-direction: column;
+
     width: 70%;
+
     align-items: start;
+
     margin-left: 0.5rem;
   }
-  .nav-title {
+
+  .nav-heading {
     width: 100%;
+
     padding: 0.8rem 0 0 0;
   }
-  .navbar-sidebar {
+
+  .menu-options {
     flex-direction: row;
+
     justify-content: start;
+
     align-items: center;
+
     padding: 0;
+
     width: 100%;
   }
-  .navbar-sidebar p {
+
+  .menu-options p {
     margin-right: 1rem;
+
     margin-top: 0.5rem;
   }
 
-  .navbar-button {
+  .donate-button-container {
     width: 30%;
+
     margin: 0 0.5rem 0 0;
+  }
+
+  .donate-button {
     width: 100%;
   }
 
-  .main-page1 {
-    background: url("./allimages/annie-spratt-135307-unsplash.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .main-page1-issue {
-    margin: 0 35%;
-    left: -28%;
+  .container1 {
+    padding: 1.5rem;
   }
 
-  .main-page1-data {
-    align-items: start;
+  .main-page1-issue-heading {
+    font-size: 3rem;
   }
-  .main-page1-data > h1 {
-    text-align: start;
-    padding-left: 1rem;
+
+  .main-page1-issue-content {
+    padding-bottom: 2rem;
+  }
+
+  .main-page1-issue-content h1 {
     font-size: 2rem;
+
+    text-align: start;
   }
 
-  .main-page1-data > p {
-    text-align: left;
-    padding-left: 1rem;
-    font-size: 1rem;
+  .main-page1-issue-box {
+    margin-left: -70%;
   }
-
-  .main-page2-takeaction {
-    margin: 0 30%;
-  }
-
   .main-page3 {
     align-items: start;
-    padding: 2rem 4rem 0rem 4rem;
+    padding-top: 2rem;
   }
 
   .main-page3-data {
@@ -702,8 +803,6 @@ html {
     flex-direction: row;
     justify-content: center;
     align-items: top;
-    background: url("./allimages/Did\ you\ know\ background.png");
-    background-size: cover;
     padding-left: 0;
   }
 
@@ -724,7 +823,7 @@ html {
   }
 
   .main-page5 {
-    padding: 2rem;
+    padding: 2rem 0rem;
   }
 
   .main-page5-box1 {
@@ -744,7 +843,6 @@ html {
   .main-page5-box2 {
     margin-top: -10%;
     width: 90%;
-    margin-left: 15%;
   }
 
   .main-page5-box2-para {
@@ -770,7 +868,6 @@ html {
     align-self: start;
     text-align: start;
     font-size: 2.5rem;
-    margin-left: 10%;
     margin-right: 15%;
     padding: 1rem 0rem;
   }
@@ -783,13 +880,12 @@ html {
     flex-direction: row;
     align-items: start;
     gap: 10%;
-    margin: 0 10%;
   }
   .main-page6-newsSection {
     flex-direction: row-reverse;
     align-items: start;
     gap: 10%;
-    margin: 5% 10%;
+    margin: 5% 0%;
   }
   .main-page6-eventHead,
   .main-page6-newsHead {
@@ -817,7 +913,7 @@ html {
     align-self: start;
   }
   .main-page7-subscribe {
-    padding: 3.5rem;
+    padding: 3.5rem 0rem;
   }
 
   .main-page7-email-input {
@@ -844,65 +940,64 @@ html {
 @media screen and (min-width: 60rem) {
   .navbar {
     flex-direction: row;
+
     align-items: center;
-    padding: 1rem;
+
+    padding: 1rem 6rem;
   }
-  .navbar-1 {
+
+  .heading-menu {
     flex-direction: row;
+
     align-items: center;
+
     width: 70%;
   }
-  .nav-title {
-    font-size: 0.5rem;
-    width: 34%;
+
+  .nav-heading {
+    width: 30%;
   }
-  .navbar-sidebar {
+
+  .menu-options {
     flex-direction: row;
+
     align-items: center;
+
     justify-content: space-around;
+
     margin-left: 1rem;
+  }
+
+  .menu-options p {
     font-size: 1rem;
   }
-  .navbar-button {
-    width: 100%;
+
+  .donate-button-container {
+    width: 20%;
   }
 
-  .main-page1 {
-    background: url("./allimages/annie-spratt-135307-unsplash.png");
-    background-size: cover;
-    padding: 5rem;
-    background-repeat: no-repeat;
-    width: 100%;
+  .container1 {
+    flex-direction: row;
 
-    flex-direction: row-reverse;
-    justify-content: right;
-    padding: 20 5rem;
+    align-items: center;
+    padding: 1.5rem 6rem;
+    justify-content: space-around;
+  }
+  .main-page1-issue-heading {
+    margin-left: 9rem;
   }
 
-  .main-page1-title {
-    font-size: 1.3rem;
-    padding-top: 0.5rem;
-  }
+  .main-page1-issue-content {
+    position: relative;
 
-  .main-page1-title h1 {
-    font-size: 3rem;
-  }
-  .main-page1-issue {
-    left: -50%;
-    top: 2rem;
-    padding: 0.6rem;
-    margin: 0;
-    height: 2rem;
-    justify-content: center;
-    width: 23rem;
-  }
+    width: 50%;
+    margin-top: -11rem;
+    margin-left: 40%;
 
-  .main-page1-data h1 {
-    font-size: 2rem;
+    margin-bottom: 8rem;
   }
-
-  .main-page2-takeaction {
-    margin: 0 40%;
+  .main-page1-issue-content h1 {
+    padding: 5rem 0;
   }
 
   .main-page2-data {
@@ -981,11 +1076,7 @@ html {
     flex-direction: row;
     justify-content: center;
     align-items: top;
-    background: url("./allimages/Did\ you\ know\ background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 3rem;
+    padding: 3rem 0rem;
   }
 
   .main-page4-heading {
@@ -999,7 +1090,7 @@ html {
   }
 
   .main-page4-data {
-    margin: 0 3%;
+    margin-left: 3%;
     width: 100%;
   }
   .main-page4-data h3 {
@@ -1015,13 +1106,11 @@ html {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    padding-left: 0;
   }
 
   .main-page5-box1 {
     width: 100%;
     padding: 0;
-    margin-right: 10%;
   }
 
   .main-page5-box1 img {
@@ -1032,9 +1121,7 @@ html {
     position: relative;
     margin-top: 5%;
     width: 100%;
-    margin-right: -5%;
     padding: 0;
-    margin-left: 5%;
   }
 
   .main-page5-box2-para {
@@ -1109,5 +1196,18 @@ html {
     padding-bottom: 5px;
     margin-bottom: 10px;
     display: inline-block;
+  }
+}
+
+@media screen and (max-width: 80rem) {
+  .container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+  }
+  .main-page1-data {
+    width: 100%;
   }
 }
