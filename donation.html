@@ -13,74 +13,115 @@
       The Green<br />
       Trees Initiative
     </h2>
-    <div class="donation-detail">
-      <h4 class="donation-line">Give HOPE to those Who need It most</h4>
 
-      <div class="donation-form">
-        <form class="donation-info-form">
-          <label class="form-your-info">Your information</label>
-          <div class="form-detail">
-            <div class="label-detail form-firstName">
-              <label>FIRST NAME</label>
-              <input type="text" placeholder="First name" />
-            </div>
-            <div class="label-detail form-secondName">
-              <label>LAST NAME</label>
-              <input type="text" placeholder="Last name" />
-            </div>
-          </div>
-          <div class="form-detail label-detail form-streetaddress">
-            <label>STREET ADDRESS</label>
-            <input type="text" placeholder="Street address" />
-          </div>
-          <div class="form-detail">
-            <div class="label-detail form-city">
-              <label>CITY</label>
-              <input type="text" placeholder="City name" />
-            </div>
-            <div class="label-detail form-state">
-              <label>STATE</label>
-              <input type="text" placeholder="state" />
-            </div>
-            <div class="label-detail form-zipcode">
-              <label>ZIP CODE</label>
-              <input type="text" placeholder="ZIp" />
-            </div>
-          </div>
-          <div class="form-detail label-detail form-email">
-            <label>EMAIL ADDRESS</label>
-            <input type="email" placeholder="Email address" />
-          </div>
-        </form>
-        <form class="donation-info-payment">
-          <label class="form-your-info">Payment information</label>
-          <div class="form-detail label-detail form-creditcard">
-            <label>CREDIT CARD NUMBER</label>
-            <input type="text" placeholder="credit card number" />
-          </div>
-          <div class="form-detail">
-            <div class="label-detail form-expiration">
-              <label>EXPIRATION DATE</label>
-              <div class="label-detail1">
-                <input type="text" placeholder="MM" />
-                <input type="text" placeholder="YYYY" />
+    <section class="donation-section">
+      <div class="form-container">
+        <div class="donation-heading">
+          <h3>Give HOPE to those Who need It most</h3>
+        </div>
+
+        <form class="donation-form">
+          <fieldset>
+            <legend>Your information</legend>
+            <div class="form-full-name">
+              <div class="first-name-container lb-in">
+                <label for="first-name">FIRST NAME</label>
+                <input type="text" id="first-name" placeholder="First name" />
+              </div>
+
+              <div class="last-name-container lb-in">
+                <label for="last-name">LAST NAME</label>
+                <input type="text" id="last-name" placeholder="Last name" />
               </div>
             </div>
-            <div class="label-detail form-security">
-              <label>SECURITY CODE</label>
-              <input class="text" placeholder="CVC" />
+
+            <div class="form-address">
+              <div class="street-address-container lb-in">
+                <label for="street-address">STREET ADDRESS</label>
+                <input
+                  type="text"
+                  id="street-address"
+                  placeholder="Street address"
+                />
+              </div>
+
+              <div class="city-state-zip-container">
+                <div class="city-address lb-in">
+                  <label for="city">CITY</label>
+                  <input type="text" id="city" placeholder="City name" />
+                </div>
+
+                <div class="state-address lb-in">
+                  <label for="state-selector">STATE</label>
+                  <select name="states" id="state-selector">
+                    <option value="al">AL</option>
+                    <option value="ny">NY</option>
+                    <option value="la">LA</option>
+                    <option value="cn">CN</option>
+                  </select>
+                </div>
+
+                <div class="zip-code lb-in">
+                  <label for="zip">ZIP CODE</label>
+                  <input type="text" id="zip" placeholder="Zip code" />
+                </div>
+              </div>
+            </div>
+
+            <div class="email-container lb-in">
+              <label for="email">EMAIL ADDRESS</label>
+              <input type="email" id="email" placeholder="Email address" />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Payment information</legend>
+
+            <div class="credit-card-container lb-in">
+              <label for="credit-card-number">CREDIT CARD NUMBER</label>
+              <input
+                type="email"
+                id="credit-card-number"
+                placeholder="Credit card number"
+              />
+            </div>
+
+            <div class="credit-card-expiry-cvv">
+              <div class="credit-card-expiry lb-in">
+                <label for="expiry">EXPIRATION DATE</label>
+                <div class="expiry-month-year">
+                  <input type="text" id="expiry" placeholder="MM" />
+                  <input type="text" id="expiry" placeholder="YYYY" />
+                </div>
+              </div>
+
+              <div class="credit-card-cvv lb-in">
+                <label for="cvv">SECURITY CODE</label>
+                <input type="text" id="cvv" placeholder="CVV" />
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="confirm-donation-para">
+            <p>
+              Click the button to conﬁrm your donation of $10, recurring
+              monthly.
+            </p>
+          </div>
+
+          <div class="payment-and-go-back">
+            <div class="payment-button">
+              <button>Process Payment</button>
+            </div>
+
+            <div class="go-back-link">
+              <a href="./index.html">Go back</a>
             </div>
           </div>
         </form>
-        <h3 class="donation-info-detail">
-          Click the button to confirm your donation of $10, recurring monthly.
-        </h3>
-        <div class="button-detail">
-          <button class="donation-info-button">Process Payment</button>
-          <a href="./index.html" class="donation-info-link">Go back</a>
-        </div>
       </div>
-    </div>
+    </section>
+
     <footer class="footer-main">
       <h2>The Green Trees Initiative</h2>
 
