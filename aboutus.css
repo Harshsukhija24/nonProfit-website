@@ -4,6 +4,7 @@
   list-style: none;
   font-size: 1rem;
   width: 100%;
+  /* border-bottom: none; */
   text-decoration: none;
 }
 body {
@@ -340,7 +341,7 @@ nav {
 }
 .heading {
   /* display: flex; */
-  font-size: 0.8rem;
+  font-size: 1rem;
   /* width: 10rem; */
 }
 .handText,
@@ -353,7 +354,7 @@ nav {
 .togetherText {
   font-family: Roboto, sans-serif;
   font-weight: 100;
-  font-size: smaller;
+  font-size: 0.8rem;
   margin-top: 0.5rem;
   /* width: 10rem; */
 }
@@ -898,6 +899,7 @@ nav {
     flex-direction: row;
     width: 60rem;
   }
+
   .logo {
     width: 30%;
   }
@@ -992,6 +994,7 @@ nav {
     position: relative;
     gap: 0 2rem;
     width: 60rem;
+    padding-top: 1rem;
   }
   .hand {
     grid-row: 3/4;
@@ -1057,6 +1060,9 @@ nav {
   }
   .main-page5-cardflex {
     width: 60rem;
+  }
+  .footer-border-line {
+    text-decoration: underline;
   }
   .container {
     align-self: center;

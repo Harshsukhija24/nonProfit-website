@@ -641,7 +641,7 @@ nav {
   background-color: #354463;
   color: #c1f7d5;
   border-radius: 2rem;
-  padding: 0.8rem 2.4rem;
+  padding: 0.8rem;
   border: none;
   cursor: pointer;
   white-space: nowrap;
@@ -1198,7 +1198,7 @@ nav {
 
 @media screen and (min-width: 80rem) {
   .container {
-    width: 1140px;
+    width: 1000px;
     padding-left: 0.8rem;
     padding-right: 0.8rem;
   }

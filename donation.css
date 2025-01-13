@@ -10,10 +10,13 @@ html {
   width: 100%;
   overflow-x: hidden;
 }
+
 .container {
-  width: 1120px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
 }
 
 .donation-title {
@@ -375,6 +378,8 @@ input::placeholder {
   .footer-main {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding: 0 8rem;
+    /* margin-left: 6rem; */
+    /* margin-right: 3rem; */
   }
 
   .footer-learn-footer {
@@ -390,6 +395,7 @@ input::placeholder {
     margin-left: 2rem;
   }
 
+  
   .footer-border-line {
     font-weight: bold;
     border-bottom: 2px solid #ccc;
@@ -397,5 +403,13 @@ input::placeholder {
     margin-bottom: 10px;
     display: inline-block;
   }
+}
 
+@media screen and (min-width: 75rem) {
+  .footer-main {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 0 8rem;
+    margin-left: 6rem;
+    margin-right: 3rem;
+  }
 }
